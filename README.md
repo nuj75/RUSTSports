@@ -1,7 +1,6 @@
-# Tauri + Vanilla
+# How does RUSTSports work?
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+RUSTSports was created using the Tauri software framework, which allows Rust functionalities to be implemented along with HTML, CSS, and JS. Using Rust, the app web scrapes basketball scores and parses through data using Regex. This information is passed to JS which modifies the data in order to be displayed in the window. 
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
